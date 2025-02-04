@@ -83,10 +83,8 @@
 /*     background-color: #008B8B; */
     border-right: 1px solid #BDC3C7; 
     color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .headerCell.measure {
