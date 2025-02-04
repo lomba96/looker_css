@@ -67,13 +67,22 @@
 
   }
 
-    .headerCell.pivot:nth-child(1) {
+   tr:nth-child(1) .headerCell.pivot {
     background-color: #FF5733 !important; /* Arancione */
 }
     
-    .headerCell.pivot:nth-child(2) {
+   tr:nth-child(1) .headerCell.pivot {
     background-color: #33FF57 !important; /* Verde */
 }
+
+.headerCell.pivot:nth-child(1) {
+    background-color: #FFFFFF !important; /* Arancione */
+}
+
+.headerCell.pivot:nth-child(2) {
+    background-color: #FFFFFF !important; /* Verde */
+}
+
 
 
 /*   .headerCell.pivot {
