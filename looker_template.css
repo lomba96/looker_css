@@ -58,16 +58,16 @@
     color: white;
     padding: 5px;
     border-bottom: 1px solid #BDC3C7;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
   }
   
   .headerCell.dimension {
     background-color: #008B8B;
     border-right: 1px solid #BDC3C7; 
     color: white;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
   }
 
 .headerCell.pivot:nth-child(1) {
@@ -113,16 +113,16 @@
   .headerCell.transposed.dimension {
     background-color: #008B8B;
     color: white;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
 
   }
   
   .headerCell.transposed.dimension.merged {
     background-color: #008B8B !important;
     color: white;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
 
   }
   
@@ -167,8 +167,8 @@
   
   .indexCell.transposed.dimension {
     background-color: #e4ecf3;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
   }
   
   .indexCell.transposed.measure {
@@ -185,14 +185,14 @@
   
   .indexCell.transposed.pivot.merged {
     background-color: #ccd8e4 !important;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
   }
   
   .indexCell.transposed.dimension.merged {
     background-color: #e4ecf3 !important;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
   }
   
   .indexCell.transposed.measure.merged {
@@ -207,10 +207,10 @@
     vertical-align: middle !important; */
   }
   
-  .nonNumeric {
+/*   .nonNumeric {
     text-align: center !important;
     vertical-align: middle !important;
-  }
+  } */
   
   .numeric {
     text-align: right;
