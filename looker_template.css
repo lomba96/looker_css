@@ -30,7 +30,7 @@
     font-family: Open Sans,Helvetica,Arial,sans-serif;
     border: 0px;
     border-collapse: collapse;
-    table-layout: auto;
+/*     table-layout: auto; */
   }
   
   .focus {
@@ -50,7 +50,7 @@
     color: #696969;
     border-collapse: collapse;
     border-spacing: 3px;
-    table-layout: fixed;
+/*     table-layout: fixed; */
   }
   
   th.headerCell {
@@ -73,11 +73,13 @@
 .headerCell.pivot:nth-child(1) {
     background-color: #FFFFFF !important;
     text-align: center;
+    vertical-align: middle !important;
 }
 
 .headerCell.pivot:nth-child(2) {
     background-color: #FFFFFF !important; 
     text-align: center;
+    vertical-align: middle !important;
 }
 
 
@@ -94,6 +96,8 @@
     background-color: #5F9EA0;
     border-left: 1px solid #BDC3C7; 
     color: white;
+    text-align: center !important;
+    vertical-align: middle !important;
 
   }
   
@@ -101,20 +105,24 @@
     background-color: #5F9EA0;
     border-left: 1px solid #BDC3C7;
     color: white;
+    text-align: center !important;
+    vertical-align: middle !important;
 
   }
   
   .headerCell.transposed.dimension {
     background-color: #008B8B;
     color: white;
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
 
   }
   
   .headerCell.transposed.dimension.merged {
     background-color: #008B8B !important;
     color: white;
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
 
   }
   
@@ -141,56 +149,67 @@
   
   .rowCell.merged {
     background-color: #ffffff !important;
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .indexCell.transposed {
     font-weight: bold;
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .indexCell.transposed.pivot {
     background-color: #ccd8e4;
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .indexCell.transposed.dimension {
     background-color: #e4ecf3;
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .indexCell.transposed.measure {
     background-color: #e4d0bd;
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .indexCell.transposed.calculation {
     background-color: #c9dfc5;
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .indexCell.transposed.pivot.merged {
     background-color: #ccd8e4 !important;
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .indexCell.transposed.dimension.merged {
     background-color: #e4ecf3 !important;
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .indexCell.transposed.measure.merged {
     background-color: #e4d0bd !important;
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .indexCell.transposed.calculation.merged {
     background-color: #c9dfc5 !important;
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .nonNumeric {
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .numeric {
