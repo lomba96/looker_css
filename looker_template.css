@@ -68,11 +68,13 @@
   }
 
 .headerCell.pivot:nth-child(1) {
-    background-color: #FFFFFF !important; /* Arancione */
+    background-color: #FFFFFF !important;
+    text-align: center;
 }
 
 .headerCell.pivot:nth-child(2) {
-    background-color: #FFFFFF !important; /* Verde */
+    background-color: #FFFFFF !important; 
+    text-align: center;
 }
 
 
@@ -102,12 +104,14 @@
   .headerCell.transposed.dimension {
     background-color: #008B8B;
     color: white;
+    text-align: center;
 
   }
   
   .headerCell.transposed.dimension.merged {
     background-color: #008B8B !important;
     color: white;
+    text-align: center;
 
   }
   
@@ -127,47 +131,58 @@
   .rowCell {
     vertical-align: super;
     padding-left: 5px;
-    border-bottom: 1px solid #BDC3C7; 
+    border-bottom: 1px solid #BDC3C7;
+    text-align: center;
   }
   
   .rowCell.merged {
     background-color: #ffffff !important;
+    text-align: center;
   }
   
   .indexCell.transposed {
     font-weight: bold;
+    text-align: center;
   }
   
   .indexCell.transposed.pivot {
     background-color: #ccd8e4;
+    text-align: center;
   }
   
   .indexCell.transposed.dimension {
     background-color: #e4ecf3;
+    text-align: center;
   }
   
   .indexCell.transposed.measure {
     background-color: #e4d0bd;
+    text-align: center;
   }
   
   .indexCell.transposed.calculation {
     background-color: #c9dfc5;
+    text-align: center;
   }
   
   .indexCell.transposed.pivot.merged {
     background-color: #ccd8e4 !important;
+    text-align: center;
   }
   
   .indexCell.transposed.dimension.merged {
     background-color: #e4ecf3 !important;
+    text-align: center;
   }
   
   .indexCell.transposed.measure.merged {
     background-color: #e4d0bd !important;
+    text-align: center;
   }
   
   .indexCell.transposed.calculation.merged {
     background-color: #c9dfc5 !important;
+    text-align: center;
   }
   
   .nonNumeric {
@@ -194,19 +209,23 @@
     font-style: italic;
     font-weight: bold;
     background: #D3D3D3;
+    text-align: center;
   }
   
   .total {
     border-top: 2px solid #696969 !important;
     font-weight: bold !important;
+    text-align: center;
   }
   
   .total.transposed {
     border-top: 0px !important;
     background: #D3D3D3;
+    text-align: center;
   }
   
   .rectElem.animated {
     font-family: Open Sans,Helvetica,Arial,sans-serif;
     margin: 4px;
+    text-align: center;
   }
