@@ -66,13 +66,22 @@
     color: white;
 
   }
-  
-  .headerCell.pivot {
+
+    .headerCell.pivot:nth-child(1) {
+    background-color: #FF5733 !important; /* Arancione */
+}
+    
+    .headerCell.pivot:nth-child(2) {
+    background-color: #33FF57 !important; /* Verde */
+}
+
+
+/*   .headerCell.pivot {
     background-color: #00CED1;
     border-right: 1px solid #BDC3C7; 
     color: white;
 
-  }
+  } */
   
   .headerCell.measure {
     background-color: #00CED1;
