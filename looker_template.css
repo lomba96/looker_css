@@ -96,8 +96,8 @@
     background-color: #5F9EA0;
     border-left: 1px solid #BDC3C7; 
     color: white;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
 
   }
   
@@ -105,8 +105,8 @@
     background-color: #5F9EA0;
     border-left: 1px solid #BDC3C7;
     color: white;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
 
   }
   
@@ -143,20 +143,20 @@
     vertical-align: super;
     padding-left: 5px;
     border-bottom: 1px solid #BDC3C7;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
   }
   
   .rowCell.merged {
     background-color: #ffffff !important;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
   }
   
   .indexCell.transposed {
     font-weight: bold;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
   }
   
   .indexCell.transposed.pivot {
@@ -173,14 +173,14 @@
   
   .indexCell.transposed.measure {
     background-color: #e4d0bd;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
   }
   
   .indexCell.transposed.calculation {
     background-color: #c9dfc5;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
   }
   
   .indexCell.transposed.pivot.merged {
@@ -197,14 +197,14 @@
   
   .indexCell.transposed.measure.merged {
     background-color: #e4d0bd !important;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
   }
   
   .indexCell.transposed.calculation.merged {
     background-color: #c9dfc5 !important;
-    text-align: center !important;
-    vertical-align: middle !important;
+/*     text-align: center !important;
+    vertical-align: middle !important; */
   }
   
   .nonNumeric {
