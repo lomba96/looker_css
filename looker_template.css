@@ -84,7 +84,9 @@
     border-right: 1px solid #BDC3C7; 
     color: white;
     text-align: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .headerCell.measure {
