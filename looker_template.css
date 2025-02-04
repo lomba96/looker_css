@@ -77,12 +77,13 @@
 
 
 
-/*   .headerCell.pivot {
-    background-color: #008B8B;
+  .headerCell.pivot {
+/*     background-color: #008B8B; */
     border-right: 1px solid #BDC3C7; 
     color: white;
+    text-align: center;
 
-  } */
+  }
   
   .headerCell.measure {
     background-color: #5F9EA0;
