@@ -58,8 +58,8 @@
     color: white;
     padding: 5px;
     border-bottom: 1px solid #BDC3C7;
-/*     text-align: center !important;
-    vertical-align: middle !important; */
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   
   .headerCell.dimension {
