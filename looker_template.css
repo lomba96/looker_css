@@ -1,0 +1,13 @@
+/* Stile per gli header delle tabelle */
+.lk-header-cell {
+    background-color: #00CED1 !important; /* Verde acqua */
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Stile per le celle delle righe */
+.lk-data-table tbody tr td {
+    background-color: #87CEEB !important; /* Azzurro */
+    color: black !important;
+}
