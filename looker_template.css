@@ -241,6 +241,7 @@
   }
   
   .total {
+    background: #B0B0B0;
     border-top: 2px solid #696969 !important;
     font-weight: bold !important;
     text-align: center;
@@ -248,7 +249,7 @@
   
   .total.transposed {
     border-top: 0px !important;
-    background: #D3D3D3;
+    background: #B0B0B0;
     text-align: center;
   }
   
