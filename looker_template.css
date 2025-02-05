@@ -76,11 +76,11 @@
     vertical-align: middle !important;
 }
 
-/* .headerCell.pivot:nth-child(2) {
+.headerCell.pivot:nth-child(n+2):nth-child(-n+5) {
     background-color: #FFFFFF !important; 
     text-align: center;
     vertical-align: middle !important;
-} */
+}
 
 
 
